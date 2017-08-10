@@ -1,5 +1,5 @@
 # paineltransparencia
-Painel de Serviços do Portal da Transparência do Municipío de [Teófilo Otoni]
+Painel de Serviços do Portal da Transparência do Municipío de [Teófilo Otoni].
 
 Desenvolvido em [PHP], utilizando [HTML 5] e [CSS 3],
 Com [Bootstrap]+[FontAwesome]
@@ -7,14 +7,12 @@ Com [Bootstrap]+[FontAwesome]
 ### Instalação
 * Instalação em CentOS 7.x >
 	* PHP 5.4 >
-		* (php-cli, php-pdo, php-ldap, php-common, php)
+		* (php-cli, php-common, php)
 	* HTTPD 2.4.6 >
 		* (httpd)
-	* OpenLDAP Libs 2.4 >
-		* (openldap-devel openldap openldap-clients)
 
 ```bash
-# yum install php-cli php-pdo php-common php httpd openldap-devel openldap openldap-clients
+# yum install php-cli php-common php httpd 
 ```
 Crie o vhost do httpd com o [template].
 
